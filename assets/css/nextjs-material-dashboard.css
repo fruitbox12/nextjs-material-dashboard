@@ -112,7 +112,7 @@ h6 {
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #002084;
   color: #3c4858;
 }
 
@@ -328,11 +328,11 @@ footer ul li a:hover {
 
 .fixed-plugin .badge.active,
 .fixed-plugin .badge:hover {
-  border-color: #00bbff;
+  border-color: #00bcd4;
 }
 
 .fixed-plugin .badge-purple {
-  background-color: #9c27b0;
+  background-color: #00bcd4;
 }
 
 .fixed-plugin .badge-blue {
@@ -340,19 +340,19 @@ footer ul li a:hover {
 }
 
 .fixed-plugin .badge-green {
-  background-color: #4caf50;
+  background-color: #00bcd4;
 }
 
 .fixed-plugin .badge-orange {
-  background-color: #ff9800;
+  background-color: #00bcd4;
 }
 
 .fixed-plugin .badge-red {
-  background-color: #f44336;
+  background-color: #00bcd4;
 }
 
 .fixed-plugin .badge-white {
-  background-color: #f1f1f1;
+  background-color: #00bcd4;
 }
 
 .fixed-plugin h5 {
