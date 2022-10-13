@@ -15,7 +15,7 @@ import CardAvatar from "components/Card/CardAvatar.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
-import avatar from "assets/img/faces/marc.jpg";
+import avatar from "assets/img/faces/2363.png";
 
 const styles = {
   cardCategoryWhite: {
@@ -52,7 +52,7 @@ function UserProfile() {
               <GridContainer>
                 <GridItem xs={12} sm={12} md={5}>
                   <CustomInput
-                    labelText="Company (disabled)"
+                    labelText="DAO (disabled)"
                     id="company-disabled"
                     formControlProps={{
                       fullWidth: true,
@@ -84,7 +84,7 @@ function UserProfile() {
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
-                    labelText="First Name"
+                    labelText="Username"
                     id="first-name"
                     formControlProps={{
                       fullWidth: true,
@@ -93,7 +93,7 @@ function UserProfile() {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
-                    labelText="Last Name"
+                    labelText="ZNS Endpoint"
                     id="last-name"
                     formControlProps={{
                       fullWidth: true,
@@ -104,7 +104,7 @@ function UserProfile() {
               <GridContainer>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="City"
+                    labelText="Region"
                     id="city"
                     formControlProps={{
                       fullWidth: true,
@@ -113,7 +113,7 @@ function UserProfile() {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="Country"
+                    labelText="DAO"
                     id="country"
                     formControlProps={{
                       fullWidth: true,
@@ -122,7 +122,7 @@ function UserProfile() {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="Postal Code"
+                    labelText="Chain ID"
                     id="postal-code"
                     formControlProps={{
                       fullWidth: true,
@@ -134,7 +134,7 @@ function UserProfile() {
                 <GridItem xs={12} sm={12} md={12}>
                   <InputLabel style={{ color: "#AAAAAA" }}>About me</InputLabel>
                   <CustomInput
-                    labelText="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
+                    labelText=""
                     id="about-me"
                     formControlProps={{
                       fullWidth: true,
@@ -160,12 +160,10 @@ function UserProfile() {
               </a>
             </CardAvatar>
             <CardBody profile>
-              <h6 className={classes.cardCategory}>CEO / CO-FOUNDER</h6>
-              <h4 className={classes.cardTitle}>Alec Thompson</h4>
+              <h6 className={classes.cardCategory}></h6>
+              <h4 className={classes.cardTitle}></h4>
               <p className={classes.description}>
-                Don{"'"}t be scared of the truth because we need to restart the
-                human foundation in truth And I love you like Kanye loves Kanye
-                I love Rick Owens’ bed design but the back is...
+           
               </p>
               <Button color="primary" round>
                 Follow
